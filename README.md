@@ -3,8 +3,11 @@
 Description
 - 날씨 빅데이터 콘테스트
 
+1. Data load - (encoding='UTF-8')
 
-### 1. Data load - (encoding='UTF-8')
+2. 기존 수상작들을 볼 때, 주로 연구원 및 현직자들이 회사의 데이터와 결합하여 사용함(https://blog.naver.com/PostView.nhn?blogId=kma_131&logNo=221356151838). 기껏해야 장려상으로 공공데이가 메인으로 사용된 느낌. 기획이 매우 중요하며 메인으로 사용될 별도의 데이터를 모색함이 가장 중요한 시점으로 보인다.
+
+
 
 ### Data1. korea_hnb (Shape : 820274, 7)
 ## Column 설명
@@ -26,5 +29,4 @@ Description
        '탄산음료', '면도기', '우산'] 총 12개
 * korea_hnb.qty : 판매개수 min 7 - max 49938 (left skew)
 * korea_cvs.bor_nm : 지역명 세부(강남구, 강북구, 강서구, 계양구, 고양시, 관악구, … ) 총 60개
-
 
