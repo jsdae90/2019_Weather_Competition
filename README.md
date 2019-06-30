@@ -7,6 +7,12 @@ Description
 
 2. 기존 수상작들을 볼 때, 주로 연구원 및 현직자들이 회사의 데이터와 결합하여 사용함(https://blog.naver.com/PostView.nhn?blogId=kma_131&logNo=221356151838). 기껏해야 장려상으로 공공데이가 메인으로 사용된 느낌. 기획이 매우 중요하며 메인으로 사용될 별도의 데이터를 모색함이 가장 중요한 시점으로 보인다.
 
+3. 유통분야로 진행 시, 필수로 사용해야 하는 korean_hnb와 korean_cvs의 데이터가 서울특별시, 인천광역시, 경기도 로 나뉘어있기에 이 중 한 곳으로 집중하는것도 좋아보임.
+
+4. 참고해볼 사이트 (주기적으로 업데이트 부탁합니다)
+ - 서울시열린데이터광장(https://data.seoul.go.kr/)
+ - SKT Data Hub(http://www.bigdatahub.co.kr/index.do)
+ 
 
 
 ## Data1. korea_hnb (Shape : 820274, 7)
