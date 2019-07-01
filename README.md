@@ -35,3 +35,17 @@ Description
        '탄산음료', '면도기', '우산'] 총 12개
 * korea_hnb.qty : 판매개수 min 7 - max 49938 (left skew)
 * korea_cvs.bor_nm : 지역명 세부(강남구, 강북구, 강서구, 계양구, 고양시, 관악구, … ) 총 60개
+
+## Data1. bigcon_weather (Shape : 70072, 11)
+### Column 설명
+* bigcon_weather.tm        : 	관측일
+* bigcon_weather.stn_id    : 	관측지점번호
+* bigcon_weather.pvn_nm    : 	법정동코드(도)
+* bigcon_weather.bor_nm    : 	법정동코드(시,군)
+* bigcon_weather.max_ta    : 	최고기온
+* bigcon_weather.max_ws    : 	최대풍속
+* bigcon_weather.min_ta    : 	최소기온
+* bigcon_weather.avg_ta    : 	평균기온
+* bigcon_weather.avg_rhm   : 	평균상대습도
+* bigcon_weather.avg_wa    : 	평균풍속
+* bigcon_weather.sum_rn    : 	합계강수
