@@ -36,7 +36,7 @@ Description
 * korea_hnb.qty : 판매개수 min 7 - max 49938 (left skew)
 * korea_cvs.bor_nm : 지역명 세부(강남구, 강북구, 강서구, 계양구, 고양시, 관악구, … ) 총 60개
 
-## Data1. bigcon_weather (Shape : 70072, 11)
+## Data3. bigcon_weather (Shape : 70072, 11)
 ### Column 설명
 * bigcon_weather.tm        : 	관측일 (20160101 - 20181231)
 * bigcon_weather.stn_id    : 	관측지점번호 (bor_nm의 id)  총 54개
@@ -50,7 +50,7 @@ Description
 * bigcon_weather.avg_wa    : 	평균풍속 min 0.0 - max 9.5
 * bigcon_weather.sum_rn    : 	합계강수 min 0.0 - max 327.5
 
-**Problem = 결측치 발생**
+**!! Problem 발생 = 결측치**
 * bigcon_weather.tm        : 	관측일		10959개
 * bigcon_weather.stn_id    : 	관측지점번호		10959개
 * bigcon_weather.pvn_nm    : 	법정동코드(도)		10959개
@@ -67,3 +67,5 @@ Description
  - 경기도 : 26264개 중 결측치 max 151 (상대습도)
  - 서울특별시 : 27395개 중 결측치 max 11068 (상대습도)
  - 인천광역시 : 5454개 중 결측치 max 3981 (상대습도)
+ 
+ 
