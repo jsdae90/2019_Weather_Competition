@@ -38,14 +38,32 @@ Description
 
 ## Data1. bigcon_weather (Shape : 70072, 11)
 ### Column 설명
-* bigcon_weather.tm        : 	관측일
-* bigcon_weather.stn_id    : 	관측지점번호
-* bigcon_weather.pvn_nm    : 	법정동코드(도)
-* bigcon_weather.bor_nm    : 	법정동코드(시,군)
-* bigcon_weather.max_ta    : 	최고기온
-* bigcon_weather.max_ws    : 	최대풍속
-* bigcon_weather.min_ta    : 	최소기온
-* bigcon_weather.avg_ta    : 	평균기온
-* bigcon_weather.avg_rhm   : 	평균상대습도
-* bigcon_weather.avg_wa    : 	평균풍속
-* bigcon_weather.sum_rn    : 	합계강수
+* bigcon_weather.tm        : 	관측일 (20160101 - 20181231)
+* bigcon_weather.stn_id    : 	관측지점번호 (bor_nm의 id)  총 54개
+* bigcon_weather.pvn_nm    : 	법정동코드 - 도 ('경기도', '서울특별시', '인천광역시') - 총 3개 
+* bigcon_weather.bor_nm    : 	법정동코드 - 시,군 ('동두천시', '파주시', '종로구', '수원시권선구' 등) 총 54개
+* bigcon_weather.max_ta    : 	최고기온 min -24.4 - max 41.8
+* bigcon_weather.max_ws    : 	최대풍속 min 0.0 - max 15.7
+* bigcon_weather.min_ta    : 	최소기온 min -24.4 - max 31.8
+* bigcon_weather.avg_ta    : 	평균기온 min -18.1 - max 34.4
+* bigcon_weather.avg_rhm   : 	평균상대습도 min 0.0 - max 100.0
+* bigcon_weather.avg_wa    : 	평균풍속 min 0.0 - max 9.5
+* bigcon_weather.sum_rn    : 	합계강수 min 0.0 - max 327.5
+
+**Problem = 결측치 발생**
+* bigcon_weather.tm        : 	관측일		10959개
+* bigcon_weather.stn_id    : 	관측지점번호		10959개
+* bigcon_weather.pvn_nm    : 	법정동코드(도)		10959개
+* bigcon_weather.bor_nm    : 	법정동코드(시,군)		10959개
+* bigcon_weather.max_ta    : 	최고기온		11246개
+* bigcon_weather.max_ws    : 	최대풍속		11294개
+* bigcon_weather.min_ta    : 	최소기온		11246개
+* bigcon_weather.avg_ta    : 	평균기온		11258개
+* bigcon_weather.avg_rhm   : 	평균상대습도		26159개
+* bigcon_weather.avg_wa    : 	평균풍속		11244개
+* bigcon_weather.sum_rn    : 	합계강수		11013개
+
+해결 if 1.법정동코드(도)로 지역 나눠서 (관측일 기준)
+ - 경기도 : 26264개 중 결측치 max 151 (상대습도)
+ - 서울특별시 : 27395개 중 결측치 max 11068 (상대습도)
+ - 인천광역시 : 5454개 중 결측치 max 3981 (상대습도)
