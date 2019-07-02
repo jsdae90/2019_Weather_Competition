@@ -11,6 +11,9 @@ Description
 
 4. 참고해볼 사이트 (주기적으로 업데이트 부탁합니다)
  - 서울시열린데이터광장(https://data.seoul.go.kr/)
+     -- 생활기상지수 (https://www.data.go.kr/dataset/15000232/openapi.do) :  체감온도, 불쾌지수, 더위체감지수 등 날씨 보조자료로 사용가능
+     -- 
+     
  - SKT Data Hub(http://www.bigdatahub.co.kr/index.do)
  
 
