@@ -9,12 +9,17 @@ Description
 
 3. 유통분야로 진행 시, 필수로 사용해야 하는 korean_hnb와 korean_cvs의 데이터가 서울특별시, 인천광역시, 경기도 로 나뉘어있기에 이 중 한 곳으로 집중하는것도 좋아보임.
 
-4. 참고해볼 사이트 (주기적으로 업데이트 부탁합니다)
+3-1. 데이터 추가의 필요성 증대
+ - 생활기상지수 (https://www.data.go.kr/dataset/15000232/openapi.do) :  체감온도, 불쾌지수, 더위체감지수 등 날씨 보조자료로 사용가능
+ - 뉴스빅데이터 분석 정보 (https://www.data.go.kr/dataset/15012945/fileData.do) : 가뭄, 미세먼지, 오존 등의 기사 메타 데이터 -> 인트로로 사용가능
+ - 랄라블라 매장 위치 데이터 (slack general에 업로드함) : 수도권 107개 매장 대상
+
+
+4. 참고해볼 사이트 및 데이터 (주기적으로 업데이트 부탁합니다)
  - 서울시열린데이터광장(https://data.seoul.go.kr/)
-     -- 생활기상지수 (https://www.data.go.kr/dataset/15000232/openapi.do) :  체감온도, 불쾌지수, 더위체감지수 등 날씨 보조자료로 사용가능
-     -- 
-     
+ - 
  - SKT Data Hub(http://www.bigdatahub.co.kr/index.do)
+ 
  
 
 
