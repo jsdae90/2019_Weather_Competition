@@ -17,7 +17,7 @@ Description
 
 4. 참고해볼 사이트 및 데이터 (주기적으로 업데이트 부탁합니다)
  - 서울시열린데이터광장(https://data.seoul.go.kr/)
- - 
+ - 공공데이터포털 (https://www.data.go.kr/)
  - SKT Data Hub(http://www.bigdatahub.co.kr/index.do)
  
  
